@@ -1,0 +1,29 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "final bootcamp project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terryucsb/finalproject.git"
+  },
+  "author": "Terry Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terryucsb/finalproject/issues"
+  },
+  "homepage": "https://github.com/terryucsb/finalproject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.0.12",
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

@@ -1,0 +1,6 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://ds233739.mlab.com:33739/finalproject
+MongoDB server version: 3.4.13
+WARNING: shell and server versions do not match
+2018-04-04T21:49:05.544-0700 E -        [main] file [admin] doesn't exist
+failed to load: admin

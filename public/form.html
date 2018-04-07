@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New User Form</title>
+	<!--link css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/signup.css">
+</head>
+<body>
+	<div class="icon">
+		<a href="index.html"> Home </a> 
+		<a href="intro.html">About</a>
+        <a href="signup.html">Register</a>	
+        <a href="form.html">Input Data</a>
+   		<img class="icon" src="assets/images/logo.png" width="300" height="200">
+ 	 </div>
+    <div id="nav">
+	<h2>Data Input Form</h2>
+ 	<form action="#" method="post">
+		<input type="text" placeholder="Data Name" name="dataName"> 
+		<input type="text" placeholder="Notes" name="dataNotes"><br><br>
+		<input type="radio" value="barGraph" name="dataType"> Bar Graph  <br>
+		<input type="radio"  value="boxWhiskers" name="dataType"> Box and Whiskers <br>
+		<input type="radio"  value="freqGraph" name="dataType"> Freq Graph <br>
+		<input type="radio"  value="lineGraph" name="dataType"> Line Graph <br>
+		<input type="radio"  value="pieGraph" name="dataType"> Pie Graph <br>
+		<input type="radio"  value="scatterGraph" name="dataType"> Scatter Graph <br>
+		<input type="text" placeholder="Email Data to.." name="email"><br>
+		<input type="text" placeholder="name of X" name="pass">
+		<input type="text" placeholder="name of Y" name="pass"><br>
+		<input type="date" name="from" min="1999-12-31" max="2020-01-01">
+		<input type="date" name="to" min="1999-12-31" max="2020-01-01">
+	<select class="type">
+  		<option value="taxReturn">Tax Return</option>
+  		<option value="finState">Financial Statement</option>
+  		<option value="supplyDemand">Ceteris Parabus</option>
+  		<option value="timeFrame">Time Frame</option>
+  		<option value="invetory">Invetory</option>
+	  	<option value="sales">Sales</option>
+	  	<option value="other">Other Data</option>
+	</select><br>
+		<input type="checkbox"  name="" required> I accept terms and conditions<br>
+		<p class="agreement"> by clicking accept, you are agreeing to terms and conditions: INVENTORIE does not hold any responsibility for any data leaked outside of this database, however data will be only used for direct client and not be shared with any third party</p>
+		<input type="Submit" value="Create Data" name="reg"><br>
+	</form>
+</div>
+</body>
+</html>

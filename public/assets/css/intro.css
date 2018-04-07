@@ -1,0 +1,83 @@
+body{
+	background: url("../images/dj.jpg");
+	background-size:100% 710px;
+	padding-top:10px;
+	
+}
+
+h2{
+	margin-bottom: 5px;	
+}
+
+#nav{
+	color:white;
+	padding-top:10px;
+	padding-bottom: -30px;
+	padding-left:30px;
+	font-size:20px;
+	margin:auto;
+	background:gray;
+	width:900px;
+	border-radius:10px;
+	opacity:.8;	
+	text-align: center;
+	transition: 1s;
+}
+
+#nav input[type="submit"]{
+	margin:10px;
+	width:150px;
+	border-radius:50px;
+	margin-left:20px;
+	height:50px;
+	background:blue;
+	color:white;
+	font-weight:bold;
+	font-size: 15px;
+}
+#nav input[type="submit"]:hover{
+	 
+	background:white;
+	color:blue;
+	 
+}
+
+.icon{
+	padding-top: 10px;
+	padding-bottom: 15px;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.cityBar{
+	width: 205px;
+	height: 45px;
+	font-size: 18px;
+}
+
+.agreement{
+	font-size: 10px;
+	font-weight:;
+}
+
+#nav:hover{
+	background: rgba(0,0,0,0.7);
+}
+label:hover{
+	background: grey: ;
+}
+
+label{
+	width: 30px;
+	height: 15px;
+}
+
+label > input{ /* HIDE RADIO */
+  	visibility: hidden; /* Makes input not-clickable */
+  	position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  	cursor:pointer;
+  	border:2px solid transparent;
+}
